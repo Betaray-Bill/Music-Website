@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    background-color: #0c0f12;
+    color: #fff;
+}
+
+.playlist {
+    width: 100vw;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 80px;
+    place-items: center;
+}
+
+.playlist_section {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist_songs {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.song_wrapper {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.song_wrapper .play {
+    background-color: #1b2e41
+}
+
+.song_section {
+    display: flex;
+    justify-content: space-between
+}
+
+.song_img img {
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 2rem;
+}
+
+.song_section p,
+.song_cont p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.progress-section {
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 10px;
+    width: 100%;
+}
+
+ion-icon {
+    font-size: 32px;
+}
+
+ion-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 250ms ease-in-out;
+}
+
+.progress_bar {
+    background-color: #fe8daa;
+    border-radius: 5px;
+    height: 6px;
+    width: 100%;
+    transition: width 0.1s linear;
+}

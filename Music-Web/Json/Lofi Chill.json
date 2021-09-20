@@ -1,0 +1,31 @@
+[{
+    "title": "Lofi Chill",
+    "bg": "../Images//Title/chill.jpg",
+    "desc": "Chill Lofi will make your day",
+    "lofi_songs": [{
+            "song_title": "hey",
+            "audio": "../musics/hey.mp3",
+            "song_img": "https://wallpapers.com/images/featured/hbeejyqka3ckh1kg.jpg"
+        },
+        {
+            "song_title": "summer",
+            "audio": "../musics/summer.mp3",
+            "song_img": "../Images/Title/mellow.jpg"
+        },
+        {
+            "song_title": "ukele",
+            "audio": "../musics/ukele.mp3",
+            "song_img": "../Images/Title/mellow.jpg"
+        },
+        {
+            "song_title": "ukele",
+            "audio": "../musics/ukele.mp3",
+            "song_img": "../Images/Title/mellow.jpg"
+        },
+        {
+            "song_title": "ukele",
+            "audio": "../musics/ukele.mp3",
+            "song_img": "../Images/Title/mellow.jpg"
+        }
+    ]
+}]

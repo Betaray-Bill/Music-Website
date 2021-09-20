@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--  -->
+
+    <title>Music App || Lofi</title>
+    <link rel="stylesheet" href="../Style/lofi_style.css">
+</head>
+
+<body>
+
+    <div class="playlist">
+        <div class="playlist_section">
+            <div class="playlist_header">
+
+            </div>
+            <div class="playlist_songs" id="playlist_songs">
+
+                <div class="song_wrapper" id="song_wrapper">
+                    <div class="song_section">
+                        <p></p>
+                        <div class="song_img">
+                            <img src="https://wallpapers.com/images/featured/hbeejyqka3ckh1kg.jpg" alt="">
+                        </div>
+                        <div class="song_cont">
+                            <p class="song_name">ji</p>
+                        </div>
+                    </div>
+                    <audio src="../musics/hey.mp3" id="audio"></audio>
+                    <div class="progress_section">
+                        <ion-icon name="play-outline" class="icon_play" id="icon_play"></ion-icon>
+                        <div class="progress_bar"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../Javascript/lofipage.js"></script>
+</body>
+
+</html>
